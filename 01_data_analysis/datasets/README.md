@@ -1,4 +1,4 @@
-Overview: This folder contains all datasets used for the **Data Analysis** projects in this portfolio.  
+Overview: This folder contains all datasets used for the Data Analysis projects in this portfolio.  
 Each dataset is publicly available and used strictly for educational and demonstration purposes.
 
 The goal of including these datasets is to:
@@ -8,11 +8,11 @@ The goal of including these datasets is to:
 
 Dataset Summaries:
 
-Student Performance
-File: `students.csv`  
-Source: [Student Performance Dataset (Kaggle)](https://www.kaggle.com/datasets/whenamancodes/student-performance)  
-Description: Examines relationships between study time, absences, and exam scores.  
-Used to demonstrate cleaning missing data, computing correlations, and analyzing outliers.
+Student Performance on Exams
+File: `StudentsPerformance.csv`  
+Source: [Student Performance in Exams Dataset (Kaggle)]([https://www.kaggle.com/datasets/whenamancodes/student-performance](https://www.kaggle.com/datasets/spscientist/students-performance-in-exams?utm_source=chatgpt.com))  
+Description: Examines relationships between gender, race/ethnicity, parental level of education, free/reduced lunch, test preparation course and student achievement on math, reading, and writing exams.
+
 
 
 
@@ -24,7 +24,4 @@ Data Usage and Licensing:
 
 If you reuse or adapt these datasets, please check each source for its specific license terms.
 
-
-
 Last updated: November 2025 by Amanda Stanley
-
