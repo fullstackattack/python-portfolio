@@ -11,8 +11,7 @@ Dataset Summaries:
 Student Performance
 File: `students.csv`  
 Source: [Student Performance Dataset (Kaggle)](https://www.kaggle.com/datasets/whenamancodes/student-performance)  
-**Description:**  
-Examines relationships between study time, absences, and exam scores.  
+Description: Examines relationships between study time, absences, and exam scores.  
 Used to demonstrate cleaning missing data, computing correlations, and analyzing outliers.
 
 
