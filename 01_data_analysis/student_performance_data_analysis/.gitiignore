@@ -1,0 +1,21 @@
+# Jupyter and Python cache
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+
+# Environment files
+.env
+.venv/
+*.env
+
+# macOS system files
+.DS_Store
+
+# Kaggle and cache directories
+.kaggle/
+.cache/
+.kagglehub/
+
+# Notebook output files
+*.csv
+*.png
