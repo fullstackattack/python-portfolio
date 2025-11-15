@@ -190,14 +190,14 @@ def dashboard_epic():
 
     if request.method == "POST":
         date = request.form.get("date")
-        url = f"https://api.nasa.gov/EPIC/api/natural/date/{date}"
+        url = "https://api.nasa.gov/EPIC/api/natural/date/{date}"
         response = requests.get(url, params={"api_key": NASA_KEY})
 
         if response.status_code == 200:
             data = response.json()
             year, month, day = date.split("-")
             images = [
-                f"https://epic.gsfc.nasa.gov/archive/natural/{year}/{month}/{day}/png/{item['image']}.png"
+                "https://epic.gsfc.nasa.gov/archive/natural/{year}/{month}/{day}/png/{item['image']}.png"
                 for item in data
             ]
 
@@ -211,7 +211,7 @@ def dashboard_images():
 
     if request.method == "POST":
         query = request.form.get("query")
-        url = f"https://images-api.nasa.gov/search?q={query}"
+        url = "https://images-api.nasa.gov/search?q={query}"
         response = requests.get(url)
         data = response.json()
         results = []
