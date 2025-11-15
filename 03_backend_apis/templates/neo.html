@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Near Earth Objects</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+
+<div class="dashboard-container">
+    <h1>☄️ Near-Earth Objects Analyzer</h1>
+
+    <form method="POST">
+        <input type="date" name="start" required>
+        <input type="date" name="end" required>
+        <button type="submit">Load Asteroids</button>
+    </form>
+
+    {% if asteroids %}
+        <h2>{{ asteroids|length }} Objects Found</h2>
+        <ul>
+        {% for a in asteroids %}
+            <li>{{ a.name }} — {{ a.date }} — {{ a.diameter_km }} km — Hazardous: {{ a.hazardous }}</li>
+        {% endfor %}
+        </ul>
+    {% endif %}
+
+    <a href="/dashboard">Back</a>
+</div>
+
+</body>
+</html>

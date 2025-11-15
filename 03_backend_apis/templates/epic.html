@@ -1,0 +1,26 @@
+<html>
+<head>
+    <title>NASA Space Dashboard</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+
+
+<h1>EPIC Earth Images</h1>
+
+<form method="POST">
+    <input type="date" name="date" required>
+    <button type="submit">Load Images</button>
+</form>
+
+{% if images %}
+    <h2>Images for {{ date }}</h2>
+    {% for img in images %}
+        <img src="{{ img }}" width="500">
+    {% endfor %}
+{% endif %}
+
+<a href="/dashboard">Back</a>
+
+</body>
+</html>
