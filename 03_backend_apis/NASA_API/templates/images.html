@@ -1,0 +1,25 @@
+<html>
+<head>
+    <title>NASA Space Dashboard</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+
+<h1>NASA Image Search</h1>
+
+<form method="POST">
+    <input type="text" name="query" placeholder="moon, mars, earth..." required>
+    <button type="submit">Search</button>
+</form>
+
+{% if results %}
+    <h2>Results for "{{ query }}"</h2>
+    {% for r in results %}
+        <h3>{{ r.title }}</h3>
+        <img src="{{ r.img }}" width="500">
+    {% endfor %}
+{% endif %}
+
+<a href="/dashboard">Back</a>
+</body> 
+</html> 
