@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>NASA Space Dashboard</title>
+    <link rel="stylesheet" href="/static/styles.css">
+</head>
+<body>
+
+<div class="dashboard-container">
+    <h1>NASA Space Dashboard</h1>
+    <p style="text-align:center;">Explore NASA space data through interactive tools powered by your custom API.</p>
+
+    <div class="card-grid">
+
+        <!-- APOD -->
+        <div class="card">
+            <h2>APOD</h2>
+            <p>Astronomy Picture of the Day</p>
+            <a href="/dashboard/apod" class="card-button">View</a>
+        </div>
+
+        <!-- EPIC -->
+        <div class="card">
+            <h2>EPIC Earth</h2>
+            <p>Daily Earth images from space</p>
+            <a href="/dashboard/epic" class="card-button">Explore</a>
+        </div>
+
+        <!-- Images -->
+        <div class="card">
+            <h2>NASA Image Search</h2>
+            <p>Search NASA’s massive image library</p>
+            <a href="/dashboard/images" class="card-button">Search</a>
+        </div>
+
+        <!-- NEO -->
+        <div class="card">
+            <h2>Near-Earth Objects</h2>
+            <p>Asteroids approaching Earth</p>
+            <a href="/dashboard/neo" class="card-button">Analyze</a>
+        </div>
+
+    </div>
+</div>
+
+</body>
+</html>

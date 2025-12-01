@@ -1,0 +1,13 @@
+#Core data libraries
+pandas==2.2.2
+numpy==1.26.4
+
+# Visualization 
+plotly==5.24.0
+
+# Data access 
+kagglehub==0.2.7
+
+# Optional (for local running or notebooks)
+jupyterlab>=4.0.0
+ipykernel>=6.29.0
