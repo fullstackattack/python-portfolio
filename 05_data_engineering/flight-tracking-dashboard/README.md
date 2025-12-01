@@ -152,8 +152,8 @@ This project captures essential components of aviation software engineering:
 
 ## Contact
 
-**Amanda Stanley**
-Python Developer • Data Engineering 
+**Amanda Stanley**. 
+Python Developer • Data Engineering. 
 GitHub: [https://github.com/fullstackattack](https://github.com/fullstackattack)
 
 
