@@ -27,7 +27,7 @@ Displays aircraft across the globe using Plotly Mapbox with hover-inspect detail
 * Latitude/longitude
 * Vertical rate
 
-### ✔ Modular Backend Design
+### Modular Backend Design
 
 The backend is organized into clear components:
 
@@ -36,7 +36,7 @@ The backend is organized into clear components:
 * `app.py` — Flask server and routing
 * `index.html` — UI rendering
 
-### ✔ Data Cleaning & Validation
+### Data Cleaning & Validation
 
 The system handles:
 
